@@ -23,3 +23,21 @@
  - map is iterable whereas object doesn’t
  - JSON has direct support for Object, but not with Map (yet)
  - map- perform better in storing large set of data and which need frequest add/delete operations
+
+ For additional information refer: https://medium.com/front-end-weekly/es6-map-vs-object-what-and-when-b80621932373 
+
+2. ### IIFE
+ - Is a JavaScript function that runs as soon as it is defined.
+ - Lexical scope ... () ... This prevents accessing variables within the IIFE idiom as well as polluting the global scope.
+ - That’s a function that died immediately after it came to life.
+ - prefixing “!” in-front of the function keyword on line 1. This basically enforces JavaScript to treat whatever that’s coming after “!” as an expression
+- Advantages/Benefits
+   1. local scoping (prevents accessing variables within + polluting global scope)
+   2. reduces scope lookup (performance benefit)
+   3. we can pass global objects and reference within IIFE via local scope
+   4. Helps minification optimisation => passing global objects as local values (paramters), allows minifier to reduce it to one letter... i.e. minify .. eg: window to w, jQuery to $.
+
+Additional references:
+ - http://gregfranko.com/blog/i-love-my-iife/ 
+ - https://medium.com/@vvkchandra/essential-javascript-mastering-immediately-invoked-function-expressions-67791338ddc6 
+
