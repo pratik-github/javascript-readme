@@ -40,4 +40,6 @@
 Additional references:
  - http://gregfranko.com/blog/i-love-my-iife/ 
  - https://medium.com/@vvkchandra/essential-javascript-mastering-immediately-invoked-function-expressions-67791338ddc6 
+ 
+ 3. https://github.com/getify/You-Dont-Know-JS
 
